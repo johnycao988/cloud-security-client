@@ -28,7 +28,7 @@ public class SecurityFilter implements Filter {
 		
 		al.add("/rest");
 		
-		excludeUrls=al.toArray(new String[0]);		
+		excludeUrls=al.toArray(new String[0]);	
 		
 	}
 
