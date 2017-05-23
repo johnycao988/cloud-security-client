@@ -43,10 +43,11 @@ public class SecurityFilter implements Filter {
 			String reqUrl=req.getServletPath();
 			
 			for(String s:this.excludeUrls){
+			
 				if(s.equals(reqUrl)){
 					chain.doFilter(request, response);
 					return;
-				}
+				}			
 				
 			}
 
