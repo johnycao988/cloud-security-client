@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>com.cly</groupId>
 			<artifactId>comm-lib</artifactId>
-			<version>1.15</version>
+			<version>1.2</version>
 		</dependency>
 	</dependencies>
 	<build>
